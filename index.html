@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type ="text/css" href="/assets/css/reset.css">
+    <!-- <link rel="stylesheet" type ="text/css" href="/assets/css/reset.css"> -->
     <link rel="stylesheet" tympe="text/css" href="assets/css/style.css">
     <title>Gem Finder Game</title>
 </head>
@@ -17,28 +17,29 @@
     </div>
 
 <div id="randomnumber">
-    <h1>0</h1>
+    <h1 id="random-number">0</h1>
 </div>
 
 
 <div class = "results">
-    <h3>Wins: 0</h3>
-    <h3>Losses: 0</h3>
+    <h3 id ="wins">Wins: 0</h3>
+    <h3 id ="losses">Losses: 0</h3>
 </div>
 
 <div class="clearfix"></div>
 
-<div id ="button1"><img src="assets/images/greengem.jpg"></div>
-<div id ="button2"><img src="assets/images/purplegem.png"></div>
-<div id ="button3"><img src="assets/images/redgem.jpg"></div>
-<div id ="button4"><img src="assets/images/yellowgem.jpg"></div>
+<div class = "btn" id ="button1"><img src="assets/images/greengem.jpg"></div>
+<div class = "btn" id ="button2"><img src="assets/images/purplegem.png"></div>
+<div class = "btn" id ="button3"><img src="assets/images/redgem.jpg"></div>
+<div class = "btn" id ="button4"><img src="assets/images/yellowgem.jpg"></div>
 
 <div class="clearfix"></div>
 
 <h3 class="score">Your total score is:</h3>
 <div id ="total">
-    <h1>0</h1>
+    <h1 id ="your-score">0</h1>
 </div>
 
-    
+    <script src="assets/javascript/jquery-3.3.1.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
